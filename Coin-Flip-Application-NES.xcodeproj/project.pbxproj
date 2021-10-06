@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4314CED7270E3F9D00F3B55F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4314CED6270E3F9D00F3B55F /* AppDelegate.swift */; };
+		4314CED9270E3F9D00F3B55F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4314CED8270E3F9D00F3B55F /* SceneDelegate.swift */; };
+		4314CEDB270E3F9D00F3B55F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4314CEDA270E3F9D00F3B55F /* ViewController.swift */; };
+		4314CEDE270E3F9D00F3B55F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4314CEDC270E3F9D00F3B55F /* Main.storyboard */; };
+		4314CEE0270E3FA100F3B55F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4314CEDF270E3FA100F3B55F /* Assets.xcassets */; };
+		4314CEE3270E3FA100F3B55F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4314CEE1270E3FA100F3B55F /* LaunchScreen.storyboard */; };
+		4314CEEE270E3FA100F3B55F /* Coin_Flip_Application_NESTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4314CEED270E3FA100F3B55F /* Coin_Flip_Application_NESTests.swift */; };
+		4314CEF8270E3FA100F3B55F /* Coin_Flip_Application_NESUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4314CEF7270E3FA100F3B55F /* Coin_Flip_Application_NESUITests.swift */; };
+		4314CEFA270E3FA100F3B55F /* Coin_Flip_Application_NESUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4314CEF9270E3FA100F3B55F /* Coin_Flip_Application_NESUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4314CEEA270E3FA100F3B55F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4314CECB270E3F9D00F3B55F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4314CED2270E3F9D00F3B55F;
+			remoteInfo = "Coin-Flip-Application-NES";
+		};
+		4314CEF4270E3FA100F3B55F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4314CECB270E3F9D00F3B55F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4314CED2270E3F9D00F3B55F;
+			remoteInfo = "Coin-Flip-Application-NES";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4314CED3270E3F9D00F3B55F /* Coin-Flip-Application-NES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin-Flip-Application-NES.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4314CED6270E3F9D00F3B55F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4314CED8270E3F9D00F3B55F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4314CEDA270E3F9D00F3B55F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4314CEDD270E3F9D00F3B55F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4314CEDF270E3FA100F3B55F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4314CEE2270E3FA100F3B55F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4314CEE4270E3FA100F3B55F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4314CEE9270E3FA100F3B55F /* Coin-Flip-Application-NESTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coin-Flip-Application-NESTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4314CEED270E3FA100F3B55F /* Coin_Flip_Application_NESTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin_Flip_Application_NESTests.swift; sourceTree = "<group>"; };
+		4314CEF3270E3FA100F3B55F /* Coin-Flip-Application-NESUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coin-Flip-Application-NESUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4314CEF7270E3FA100F3B55F /* Coin_Flip_Application_NESUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin_Flip_Application_NESUITests.swift; sourceTree = "<group>"; };
+		4314CEF9270E3FA100F3B55F /* Coin_Flip_Application_NESUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin_Flip_Application_NESUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4314CED0270E3F9D00F3B55F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4314CEE6270E3FA100F3B55F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4314CEF0270E3FA100F3B55F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4314CECA270E3F9D00F3B55F = {
+			isa = PBXGroup;
+			children = (
+				4314CED5270E3F9D00F3B55F /* Coin-Flip-Application-NES */,
+				4314CEEC270E3FA100F3B55F /* Coin-Flip-Application-NESTests */,
+				4314CEF6270E3FA100F3B55F /* Coin-Flip-Application-NESUITests */,
+				4314CED4270E3F9D00F3B55F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4314CED4270E3F9D00F3B55F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4314CED3270E3F9D00F3B55F /* Coin-Flip-Application-NES.app */,
+				4314CEE9270E3FA100F3B55F /* Coin-Flip-Application-NESTests.xctest */,
+				4314CEF3270E3FA100F3B55F /* Coin-Flip-Application-NESUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4314CED5270E3F9D00F3B55F /* Coin-Flip-Application-NES */ = {
+			isa = PBXGroup;
+			children = (
+				4314CED6270E3F9D00F3B55F /* AppDelegate.swift */,
+				4314CED8270E3F9D00F3B55F /* SceneDelegate.swift */,
+				4314CEDA270E3F9D00F3B55F /* ViewController.swift */,
+				4314CEDC270E3F9D00F3B55F /* Main.storyboard */,
+				4314CEDF270E3FA100F3B55F /* Assets.xcassets */,
+				4314CEE1270E3FA100F3B55F /* LaunchScreen.storyboard */,
+				4314CEE4270E3FA100F3B55F /* Info.plist */,
+			);
+			path = "Coin-Flip-Application-NES";
+			sourceTree = "<group>";
+		};
+		4314CEEC270E3FA100F3B55F /* Coin-Flip-Application-NESTests */ = {
+			isa = PBXGroup;
+			children = (
+				4314CEED270E3FA100F3B55F /* Coin_Flip_Application_NESTests.swift */,
+			);
+			path = "Coin-Flip-Application-NESTests";
+			sourceTree = "<group>";
+		};
+		4314CEF6270E3FA100F3B55F /* Coin-Flip-Application-NESUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4314CEF7270E3FA100F3B55F /* Coin_Flip_Application_NESUITests.swift */,
+				4314CEF9270E3FA100F3B55F /* Coin_Flip_Application_NESUITestsLaunchTests.swift */,
+			);
+			path = "Coin-Flip-Application-NESUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4314CED2270E3F9D00F3B55F /* Coin-Flip-Application-NES */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4314CEFD270E3FA100F3B55F /* Build configuration list for PBXNativeTarget "Coin-Flip-Application-NES" */;
+			buildPhases = (
+				4314CECF270E3F9D00F3B55F /* Sources */,
+				4314CED0270E3F9D00F3B55F /* Frameworks */,
+				4314CED1270E3F9D00F3B55F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coin-Flip-Application-NES";
+			productName = "Coin-Flip-Application-NES";
+			productReference = 4314CED3270E3F9D00F3B55F /* Coin-Flip-Application-NES.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4314CEE8270E3FA100F3B55F /* Coin-Flip-Application-NESTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4314CF00270E3FA100F3B55F /* Build configuration list for PBXNativeTarget "Coin-Flip-Application-NESTests" */;
+			buildPhases = (
+				4314CEE5270E3FA100F3B55F /* Sources */,
+				4314CEE6270E3FA100F3B55F /* Frameworks */,
+				4314CEE7270E3FA100F3B55F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4314CEEB270E3FA100F3B55F /* PBXTargetDependency */,
+			);
+			name = "Coin-Flip-Application-NESTests";
+			productName = "Coin-Flip-Application-NESTests";
+			productReference = 4314CEE9270E3FA100F3B55F /* Coin-Flip-Application-NESTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4314CEF2270E3FA100F3B55F /* Coin-Flip-Application-NESUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4314CF03270E3FA100F3B55F /* Build configuration list for PBXNativeTarget "Coin-Flip-Application-NESUITests" */;
+			buildPhases = (
+				4314CEEF270E3FA100F3B55F /* Sources */,
+				4314CEF0270E3FA100F3B55F /* Frameworks */,
+				4314CEF1270E3FA100F3B55F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4314CEF5270E3FA100F3B55F /* PBXTargetDependency */,
+			);
+			name = "Coin-Flip-Application-NESUITests";
+			productName = "Coin-Flip-Application-NESUITests";
+			productReference = 4314CEF3270E3FA100F3B55F /* Coin-Flip-Application-NESUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4314CECB270E3F9D00F3B55F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					4314CED2270E3F9D00F3B55F = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					4314CEE8270E3FA100F3B55F = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 4314CED2270E3F9D00F3B55F;
+					};
+					4314CEF2270E3FA100F3B55F = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 4314CED2270E3F9D00F3B55F;
+					};
+				};
+			};
+			buildConfigurationList = 4314CECE270E3F9D00F3B55F /* Build configuration list for PBXProject "Coin-Flip-Application-NES" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4314CECA270E3F9D00F3B55F;
+			productRefGroup = 4314CED4270E3F9D00F3B55F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4314CED2270E3F9D00F3B55F /* Coin-Flip-Application-NES */,
+				4314CEE8270E3FA100F3B55F /* Coin-Flip-Application-NESTests */,
+				4314CEF2270E3FA100F3B55F /* Coin-Flip-Application-NESUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4314CED1270E3F9D00F3B55F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4314CEE3270E3FA100F3B55F /* LaunchScreen.storyboard in Resources */,
+				4314CEE0270E3FA100F3B55F /* Assets.xcassets in Resources */,
+				4314CEDE270E3F9D00F3B55F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4314CEE7270E3FA100F3B55F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4314CEF1270E3FA100F3B55F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4314CECF270E3F9D00F3B55F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4314CEDB270E3F9D00F3B55F /* ViewController.swift in Sources */,
+				4314CED7270E3F9D00F3B55F /* AppDelegate.swift in Sources */,
+				4314CED9270E3F9D00F3B55F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4314CEE5270E3FA100F3B55F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4314CEEE270E3FA100F3B55F /* Coin_Flip_Application_NESTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4314CEEF270E3FA100F3B55F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4314CEFA270E3FA100F3B55F /* Coin_Flip_Application_NESUITestsLaunchTests.swift in Sources */,
+				4314CEF8270E3FA100F3B55F /* Coin_Flip_Application_NESUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4314CEEB270E3FA100F3B55F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4314CED2270E3F9D00F3B55F /* Coin-Flip-Application-NES */;
+			targetProxy = 4314CEEA270E3FA100F3B55F /* PBXContainerItemProxy */;
+		};
+		4314CEF5270E3FA100F3B55F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4314CED2270E3F9D00F3B55F /* Coin-Flip-Application-NES */;
+			targetProxy = 4314CEF4270E3FA100F3B55F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4314CEDC270E3F9D00F3B55F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4314CEDD270E3F9D00F3B55F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4314CEE1270E3FA100F3B55F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4314CEE2270E3FA100F3B55F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4314CEFB270E3FA100F3B55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4314CEFC270E3FA100F3B55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4314CEFE270E3FA100F3B55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A44ZPUJ4DY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coin-Flip-Application-NES/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nes.application.Coin-Flip-Application-NES";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4314CEFF270E3FA100F3B55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A44ZPUJ4DY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Coin-Flip-Application-NES/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nes.application.Coin-Flip-Application-NES";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4314CF01270E3FA100F3B55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A44ZPUJ4DY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nes.application.Coin-Flip-Application-NESTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coin-Flip-Application-NES.app/Coin-Flip-Application-NES";
+			};
+			name = Debug;
+		};
+		4314CF02270E3FA100F3B55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A44ZPUJ4DY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nes.application.Coin-Flip-Application-NESTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coin-Flip-Application-NES.app/Coin-Flip-Application-NES";
+			};
+			name = Release;
+		};
+		4314CF04270E3FA100F3B55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A44ZPUJ4DY;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nes.application.Coin-Flip-Application-NESUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coin-Flip-Application-NES";
+			};
+			name = Debug;
+		};
+		4314CF05270E3FA100F3B55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A44ZPUJ4DY;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nes.application.Coin-Flip-Application-NESUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coin-Flip-Application-NES";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4314CECE270E3F9D00F3B55F /* Build configuration list for PBXProject "Coin-Flip-Application-NES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4314CEFB270E3FA100F3B55F /* Debug */,
+				4314CEFC270E3FA100F3B55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4314CEFD270E3FA100F3B55F /* Build configuration list for PBXNativeTarget "Coin-Flip-Application-NES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4314CEFE270E3FA100F3B55F /* Debug */,
+				4314CEFF270E3FA100F3B55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4314CF00270E3FA100F3B55F /* Build configuration list for PBXNativeTarget "Coin-Flip-Application-NESTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4314CF01270E3FA100F3B55F /* Debug */,
+				4314CF02270E3FA100F3B55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4314CF03270E3FA100F3B55F /* Build configuration list for PBXNativeTarget "Coin-Flip-Application-NESUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4314CF04270E3FA100F3B55F /* Debug */,
+				4314CF05270E3FA100F3B55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4314CECB270E3F9D00F3B55F /* Project object */;
+}
