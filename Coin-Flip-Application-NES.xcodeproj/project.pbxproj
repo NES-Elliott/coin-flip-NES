@@ -442,6 +442,7 @@
 				DEVELOPMENT_TEAM = A44ZPUJ4DY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Coin-Flip-Application-NES/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Coin Flip";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -470,6 +471,7 @@
 				DEVELOPMENT_TEAM = A44ZPUJ4DY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Coin-Flip-Application-NES/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Coin Flip";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
